@@ -1,0 +1,77 @@
+
+One Time process
+npm install -g create-react-app
+
+Flag
+-g = globaly
+
+
+C:\Users\<USERNAME>\AppData\Roaming\npm
+
+Some Usefull Linux Commands
+PWD = Present Working Directory
+
+How to create a react project
+
+npx create-react-app <project_name>
+
+
+cd 23tab
+
+tab  = autocompletion
+
+How to change the default port (i.e 3000) of react project?
+
+pakage.json
+
+			"start":"SET PORT=4000 && react-script start"
+
+Ctrl + C is the command to stop the react project
+y
+
+
+* ReactJS create SPA Application
+* ReactJS is a NodeJs Project
+
+ReactJs -->  HTML,CSS, JS (export), NodeJs(export)
+
+
+HTML Tags
+<div>
+
+</div>
+<img />
+	Pared Tag
+ <React.StrictMode>
+    <App></App>
+  </React.StrictMode>
+
+
+ReactJs Component
+<div>
+
+</div>
+A React Component is a HTML Tags
+
+
+Two Rule to self close the Tags
+1. Should be a single tag
+		e.g <img> --->   <img />
+2. Should not contain the Content area
+			<div></div>  ---> <div />
+
+	<div>Content Area</div>
+
+In React
+
+We must self close the tags
+
+<parent>
+		<child />
+</parent>
+
+<React.StrictMode>
+    <App />
+</React.StrictMode>
+
+A React Component can contain other react componet

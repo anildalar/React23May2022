@@ -1,17 +1,19 @@
+//1.  Import Area
+
+// import something from somelibrary;
+// import something from somelibrary;
 import React from 'react';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+// import something from somelibrary;
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+//2. We have to import
+import mycomp from './mycomp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  mycomp
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
